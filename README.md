@@ -77,6 +77,8 @@ Below you have all customers from the system; their addresses and the vehicles t
 
 ## Analysis
 
+##### COMING SOON
+
 ## Installation
 
 In order to look at the final product in your local machine, first clone the repo.
