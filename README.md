@@ -93,6 +93,38 @@ After setting up the database, don't forget to install and open a `redis-server`
 
 Then, go to `backend/config/config.json` and modify it with your db information.
 
+Example:
+
+```
+{
+  "development": {
+    "username": "dev-username",
+    "password": "dev-password",
+    "database": "dev-database",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "sync": true
+  },
+  "test": {
+    "username": "test-username",
+    "password": "test-password",
+    "database": "test-database",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "sync": true
+  },
+  "production": {
+    "username": "prod-username",
+    "password": "prod-password",
+    "database": "prod-database",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "sync": true
+  }
+}
+
+```
+
 Then;
 
 ```
