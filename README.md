@@ -162,7 +162,7 @@ Make sure to replace `#v163` (current highest version) with whatever the latest 
 Follow the standard Heroku deploy process:
 
 1.  `git add .`
-2.  `git commit -m 'Made some epic changes as per usual'`
+2.  `git commit -m 'Implements #52'`
 3.  `git push heroku master`
 
 ## Screenshots
